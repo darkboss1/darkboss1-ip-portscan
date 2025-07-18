@@ -16,7 +16,7 @@ A darkboss1 Python-based TCP port scanner that allows you to scan one or more ta
 
 ## Getting Started
 
-### Prerequisites
+### Must Install
 
 - Python 3.x
 - pip (Python package manager)
@@ -38,14 +38,6 @@ A darkboss1 Python-based TCP port scanner that allows you to scan one or more ta
 ```bash
 python darkboss1-ip-portscan.py -t <targets> [-p <port-range>] [-T <timeout>] [-n <num-threads>] [-o <output>] [-v]
 ```
-## Options   
-- -t, --targets: Specify the target IP addresses or domain names (required).
-- -p, --port-range: Specify the port range to scan (e.g., 1-100 or all). Default is 1-100.
-- -T, --timeout: Specify the timeout value in seconds. Default is 1.0 seconds.
-- -n, --num-threads: Specify the number of threads to use for scanning. Default is 10.
-- -o, --output: Specify an output file to save results to (e.g., output.json).
-- -v, --verbose: Enable verbose output.
-
 ## Examples
 1. Scan a single target for open ports (default port range):
  ```shell
